@@ -1,0 +1,20 @@
+{
+  "name": "tooling-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Build": "rollup -c",
+    "Watch": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3"
+  },
+  "dependencies": {
+    "three": "^0.159.0",
+    "web-ifc-viewer": "^1.0.218"
+  }
+}
